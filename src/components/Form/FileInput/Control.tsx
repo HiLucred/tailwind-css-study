@@ -14,6 +14,7 @@ export function Control({ multiple = false, ...props }: ControlProps) {
     }
 
     const files = Array.from(event.target.files)
+
     onFilesSelected(files, multiple)
   }
 

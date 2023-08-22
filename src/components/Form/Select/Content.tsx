@@ -12,7 +12,7 @@ export function Content({ children, ...rest }: ContentProps) {
         side="bottom"
         position="popper"
         sideOffset={8}
-        className="z-10 overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm"
+        className="z-10 animate-slideDownAndFade overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm"
         {...rest}
       >
         <Select.Viewport>{children}</Select.Viewport>
